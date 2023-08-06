@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".YakuActivity">
+
+    <Spinner
+        android:id="@+id/spinnerYaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/yaku_array"
+        android:spinnerMode="dropdown"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDecision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="決定"
+        android:layout_marginTop="16dp"
+        android:onClick="onDecisionButtonClicked" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToMainActivity"
+        android:text="戻る" />
+
+    <Spinner
+        android:id="@+id/spinnerMenzen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/Menzen"
+        android:spinnerMode="dialog"
+        android:padding="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerNaki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/Naki"
+        android:padding="16dp"
+        android:spinnerMode= "dialog"/>
+
+
+</LinearLayout>

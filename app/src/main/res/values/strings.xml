@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">mahjong</string>
+    <string-array name="yaku_array">
+        <item>1役</item>
+        <item>2役</item>
+        <item>3役</item>
+        <item>4役</item>
+        <item>5役</item>
+        <item>6役</item>
+        <item>7役</item>
+        <item>8役</item>
+        <item>9役</item>
+        <item>10役</item>
+        <item>11役</item>
+        <item>12役</item>
+        <item>13役</item>
+    </string-array>
+    <string-array name="Menzen">
+        <item>メンゼンの役</item>
+        <item>メンゼンツモ 1役</item>
+        <item>リーチ 1役</item>
+        <item>一発 1役</item>
+        <item>タンヤオ 1役</item>
+        <item>平和 1役</item>
+        <item>一盃口 1役</item>
+        <item>役牌(三元牌) 1役</item>
+        <item>役牌(風牌) 1役</item>
+        <item>槍槓 1役</item>
+        <item>嶺上開花 1役</item>
+        <item>海底 1役</item>
+        <item>河底 1役</item>
+        <item>ダブリー 2役</item>
+        <item>七対子 2役</item>
+        <item>三色同順 2役</item>
+        <item>三色同刻 2役</item>
+        <item>三暗刻 2役</item>
+        <item>一気通貫 2役</item>
+        <item>対々和 2役</item>
+        <item>チャンタ 2役</item>
+        <item>三槓子 2役</item>
+        <item>小三元 2役</item>
+        <item>混老頭 2役</item>
+        <item>二盃口 3役</item>
+        <item>ジュンチャン 3役</item>
+        <item>混一色 3役</item>
+        <item>清一色 6役</item>
+    </string-array>
+    <string-array name="Naki">
+        <item>鳴きの役</item>
+        <item>タンヤオ 1役</item>
+        <item>役牌(三元牌) 1役</item>
+        <item>役牌(風牌) 1役</item>
+        <item>槍槓 1役</item>
+        <item>嶺上開花 1役</item>
+        <item>海底 1役</item>
+        <item>河底 1役</item>
+        <item>三色同順 1役</item>
+        <item>一気通貫 1役</item>
+        <item>チャンタ 1役</item>
+        <item>三色同刻 2役</item>
+        <item>三暗刻 2役</item>
+        <item>対々和 2役</item>
+        <item>三槓子 2役</item>
+        <item>小三元 2役</item>
+        <item>混老頭 2役</item>
+        <item>ジュンチャン 2役</item>
+        <item>混一色 2役</item>
+        <item>清一色 5役</item>
+    </string-array>
+</resources>
