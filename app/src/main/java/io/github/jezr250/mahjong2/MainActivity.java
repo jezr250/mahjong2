@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     public void openPrivacyPolicy(View view) {
         // ここにプライバシーポリシーへのリンク先の処理を記述します
         // 例えば、ブラウザを開いてプライバシーポリシーページに移動する場合:
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://jezr250.github.io/mjPrivacyPolicy/src/"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://jezr250.github.io/mahjongPrivacyPolicy/"));
         startActivity(intent);
     }
     public void onStartButtonClicked(View view) {
