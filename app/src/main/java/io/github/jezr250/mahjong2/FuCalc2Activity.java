@@ -20,8 +20,6 @@ public class FuCalc2Activity extends AppCompatActivity {
     private RadioGroup radioGroup5;
     private RadioGroup radioGroup6;
     private RadioGroup radioGroup7;
-    private RadioGroup radioGroup8;
-    private RadioGroup radioGroup9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +34,6 @@ public class FuCalc2Activity extends AppCompatActivity {
         radioGroup5 = findViewById(R.id.radioGroup5);
         radioGroup6 = findViewById(R.id.radioGroup6);
         radioGroup7 = findViewById(R.id.radioGroup7);
-        radioGroup8 = findViewById(R.id.radioGroup8);
-        radioGroup9 = findViewById(R.id.radioGroup9);
     }
 
     public void calculateTotalFu(View view) {
@@ -99,7 +95,7 @@ public class FuCalc2Activity extends AppCompatActivity {
             totalFu += 16;
         }
 
-        // １・９、字牌の暗刻の符の値を計算
+        // １・９、字牌の暗刻の符の値を計算　/　中張牌の明カンの符の値を計算
         int selectedRadioButtonId6 = radioGroup5.getCheckedRadioButtonId();
         if (selectedRadioButtonId6 == R.id.radioButtonAnkoB1) {
             totalFu += 8;
@@ -107,20 +103,12 @@ public class FuCalc2Activity extends AppCompatActivity {
             totalFu += 16;
         } else if (selectedRadioButtonId6 == R.id.radioButtonAnkoB3) {
             totalFu += 24;
+        } else if (selectedRadioButtonId6 == R.id.radioButtonAnkoB4) {
+            totalFu += 32;
         }
 
-        // 中張牌の明カンの符の値を計算
-        int selectedRadioButtonId7 = radioGroup6.getCheckedRadioButtonId();
-        if (selectedRadioButtonId7 == R.id.radioButtonMinkanA1) {
-            totalFu += 8;
-        } else if (selectedRadioButtonId7 == R.id.radioButtonMinkanA2) {
-            totalFu += 16;
-        } else if (selectedRadioButtonId7 == R.id.radioButtonMinkanA3) {
-            totalFu += 24;
-        }
-
-        // 中張牌の暗カンの符の値を計算
-        int selectedRadioButtonId8 = radioGroup7.getCheckedRadioButtonId();
+        // 中張牌の暗カンの符の値を計算　/　１・９、字牌の明カンの符の値を計算
+        int selectedRadioButtonId8 = radioGroup6.getCheckedRadioButtonId();
         if (selectedRadioButtonId8 == R.id.radioButtonAnkanA1) {
             totalFu += 16;
         } else if (selectedRadioButtonId8 == R.id.radioButtonAnkanA2) {
@@ -129,18 +117,8 @@ public class FuCalc2Activity extends AppCompatActivity {
             totalFu += 48;
         }
 
-        // １・９、字牌の明カンの符の値を計算
-        int selectedRadioButtonId9 = radioGroup8.getCheckedRadioButtonId();
-        if (selectedRadioButtonId9 == R.id.radioButtonMinkanB1) {
-            totalFu += 16;
-        } else if (selectedRadioButtonId9 == R.id.radioButtonMinkanB2) {
-            totalFu += 32;
-        } else if (selectedRadioButtonId9 == R.id.radioButtonMinkanB3) {
-            totalFu += 48;
-        }
-
         // １・９、字牌の暗カンの符の値を計算
-        int selectedRadioButtonId10 = radioGroup9.getCheckedRadioButtonId();
+        int selectedRadioButtonId10 = radioGroup7.getCheckedRadioButtonId();
         if (selectedRadioButtonId10 == R.id.radioButtonAnkanB1) {
             totalFu += 32;
         } else if (selectedRadioButtonId10 == R.id.radioButtonAnkanB2) {
@@ -158,7 +136,7 @@ public class FuCalc2Activity extends AppCompatActivity {
         }
     }
 
-    public void goToScore220Activity(View view) {
+    public void goToScore2Activity(View view) {
         String totalFuText = textViewTotalFu.getText().toString();
         int totalFu;
 

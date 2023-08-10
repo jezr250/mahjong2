@@ -8,7 +8,15 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".FuCalcActivity">
+    tools:context=".FuCalc3Activity">
+
+    <TextView
+        android:id="@+id/Pinfu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="※平和・ツモは基本符20符、七対子は25符で計算"
+        android:textStyle="bold"
+        android:textColor="#FFA500" />
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -18,28 +26,23 @@
 
         <RadioButton
             android:id="@+id/radioButtonMenRon"
-            android:layout_width="wrap_content"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:text="門前ロン 30符" />
 
         <RadioButton
-            android:id="@+id/radioButtonSeven"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="七対子 25符" />
-
-        <RadioButton
             android:id="@+id/radioButtonBasic"
-            android:layout_width="wrap_content"
+            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:text="基本符 20符" />
-    </RadioGroup>
 
-    <TextView
-        android:id="@+id/Pinfu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="※平和・ツモの場合は基本符20符のみ、ツモ2符は無し！" />
+        <RadioButton
+            android:id="@+id/radioButtonSeven"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="七対子" />
+
+    </RadioGroup>
 
     <RadioGroup
         android:id="@+id/radioGroup2"
@@ -49,21 +52,21 @@
 
         <RadioButton
             android:id="@+id/radioButtonTanki"
-            android:layout_width="wrap_content"
+            android:layout_width="94dp"
             android:layout_height="wrap_content"
-            android:text="タンキ2符" />
+            android:text="タンキ" />
 
         <RadioButton
             android:id="@+id/radioButtonKanchan"
-            android:layout_width="wrap_content"
+            android:layout_width="116dp"
             android:layout_height="wrap_content"
-            android:text="カンチャン2符" />
+            android:text="カンチャン" />
 
         <RadioButton
             android:id="@+id/radioButtonPenchan"
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="ペンチャン2符" />
+            android:text="ペンチャン" />
     </RadioGroup>
 
 
@@ -74,16 +77,16 @@
 
         <CheckBox
             android:id="@+id/checkBox"
-            android:layout_width="181dp"
+            android:layout_width="174dp"
             android:layout_height="wrap_content"
             android:text="役牌がアタマ 2符" />
 
         <CheckBox
             android:id="@+id/anotherCheckBox"
-            android:layout_width="wrap_content"
+            android:layout_width="145dp"
             android:layout_height="wrap_content"
-            android:text="ツモアガリ 2符"
-            android:layout_marginStart="16dp" />
+            android:layout_marginStart="16dp"
+            android:text="ツモアガリ 2符" />
 
     </LinearLayout>
 
@@ -92,35 +95,39 @@
         android:id="@+id/PonA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="中張牌のポン 2符" />
+        android:layout_marginTop="16dp"
+        android:text="中張牌のポン 2符"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:textSize="16sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup3"
-        android:layout_width="match_parent"
+        android:layout_width="359dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioButtonPonA1"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
             android:id="@+id/radioButtonPonA2"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
             android:id="@+id/radioButtonPonA3"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
         <RadioButton
             android:id="@+id/radioButtonPonA4"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="４個" />
     </RadioGroup>
@@ -129,45 +136,54 @@
         android:id="@+id/AnkoPon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="中張牌の暗刻　/　１・９、字牌のポン 4符" />
+        android:layout_marginTop="10dp"
+        android:text="中張牌の暗刻　/　１・９、字牌のポン 4符"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:textSize="16sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup4"
-        android:layout_width="match_parent"
+        android:layout_width="357dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioButtonAnkoPon1"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkoPon2"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkoPon3"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkoPon4"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="4個" />
 
     </RadioGroup>
 
+
     <TextView
         android:id="@+id/AnkoB"
-        android:layout_width="182dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="１・９、字牌の暗刻 8符" />
+        android:layout_marginTop="10dp"
+        android:text="１・９、字牌の暗刻　/　中張牌の明槓 8符"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:textSize="16sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup5"
@@ -177,29 +193,39 @@
 
         <RadioButton
             android:id="@+id/radioButtonAnkoB1"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkoB2"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkoB3"
-            android:layout_width="wrap_content"
+            android:layout_width="92dp"
             android:layout_height="wrap_content"
             android:text="３個" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAnkoB4"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="4個" />
 
     </RadioGroup>
 
     <TextView
-        android:id="@+id/MinkanA"
-        android:layout_width="179dp"
+        android:id="@+id/AnkanA"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="中張牌の明カン 8符" />
+        android:layout_marginTop="10dp"
+        android:text="中張牌の暗槓　/　１・９、字牌の明槓 16符"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:textSize="16sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup6"
@@ -208,30 +234,34 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButtonMinkanA1"
-            android:layout_width="wrap_content"
+            android:id="@+id/radioButtonAnkanA1"
+            android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
-            android:id="@+id/radioButtonMinkanA2"
-            android:layout_width="wrap_content"
+            android:id="@+id/radioButtonAnkanA2"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
-            android:id="@+id/radioButtonMinkanA3"
-            android:layout_width="wrap_content"
+            android:id="@+id/radioButtonAnkanA3"
+            android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
     </RadioGroup>
 
     <TextView
-        android:id="@+id/AnkanA"
-        android:layout_width="182dp"
+        android:id="@+id/AnkanB"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="中張牌の暗カン 16符" />
+        android:layout_marginTop="10dp"
+        android:text="１・９、字牌の暗槓 32符"
+        android:textStyle="bold"
+        android:textColor="#008000"
+        android:textSize="16sp" />
 
     <RadioGroup
         android:id="@+id/radioGroup7"
@@ -240,84 +270,20 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButtonAnkanA1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="１個" />
-
-        <RadioButton
-            android:id="@+id/radioButtonAnkanA2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="２個" />
-
-        <RadioButton
-            android:id="@+id/radioButtonAnkanA3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="３個" />
-
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/MinkanB"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:text="１・９、字牌の明カン 16符" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/radioButtonMinkanB1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="１個" />
-
-        <RadioButton
-            android:id="@+id/radioButtonMinkanB2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="２個" />
-
-        <RadioButton
-            android:id="@+id/radioButtonMinkanB3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="３個" />
-
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/AnkanB"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:text="１・９、字牌の暗カン 32符" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
             android:id="@+id/radioButtonAnkanB1"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkanB2"
-            android:layout_width="wrap_content"
+            android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
             android:id="@+id/radioButtonAnkanB3"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
@@ -326,48 +292,63 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="start"> <!-- 左端揃えのために gravity を追加 -->
 
         <Button
-            android:id="@+id/buttonBack"
-            android:layout_width="wrap_content"
+            android:layout_width="177dp"
             android:layout_height="wrap_content"
-            android:onClick="goToYakuActivity"
-            android:text="戻る" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_marginStart="8dp"
             android:onClick="calculateTotalFu"
             android:text="計算" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:onClick="goToScore320Activity"
-            android:text="点数へ" />
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
 
         <TextView
             android:id="@+id/textViewTotalFu"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
             android:paddingStart="8dp"
-            android:paddingEnd="8dp" />
+            android:paddingEnd="8dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:text="符" />
 
     </LinearLayout>
 
-    <Space
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"> <!-- 左端揃えのために gravity を追加 -->
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="goToYakuActivity"
+            android:text="戻る" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="goToScore3Activity"
+            android:text="点数へ" />
+
+    </LinearLayout>
 
 </LinearLayout>
