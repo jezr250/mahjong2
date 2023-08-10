@@ -178,6 +178,10 @@
             android:name=".ScoreYakumanActivity"
             android:label="役満点数ページ"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:label="プライバシーポリシーページ"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
