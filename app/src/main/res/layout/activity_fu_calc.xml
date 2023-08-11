@@ -8,6 +8,7 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
+    android:background="@color/background_color"
     tools:context=".FuCalcActivity">
 
     <TextView
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         android:text="※待ち(タンキ、カンチャン、ペンチャン) 2符"
         android:textStyle="bold"
-        android:textColor="#FFA500" />
+        android:textColor="#FF0000" />
 
     <RadioGroup
         android:id="@+id/radioGroup1"
@@ -88,7 +89,7 @@
         android:id="@+id/PonA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text="中張牌のポン 2符"
         android:textStyle="bold"
         android:textColor="#008000"
@@ -163,7 +164,7 @@
             android:id="@+id/radioButtonAnkoPon4"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:text="4個" />
+            android:text="４個" />
 
     </RadioGroup>
 
@@ -198,7 +199,7 @@
 
         <RadioButton
             android:id="@+id/radioButtonAnkoB3"
-            android:layout_width="92dp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
@@ -206,7 +207,7 @@
             android:id="@+id/radioButtonAnkoB4"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:text="4個" />
+            android:text="４個" />
 
     </RadioGroup>
 
@@ -228,7 +229,7 @@
 
         <RadioButton
             android:id="@+id/radioButtonAnkanA1"
-            android:layout_width="91dp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
@@ -240,7 +241,7 @@
 
         <RadioButton
             android:id="@+id/radioButtonAnkanA3"
-            android:layout_width="91dp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
@@ -270,7 +271,7 @@
 
         <RadioButton
             android:id="@+id/radioButtonAnkanB2"
-            android:layout_width="91dp"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
