@@ -7,7 +7,6 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    android:background="@color/background_color"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,15 +17,16 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="170dp"
         android:text="麻雀点数計算"
-        android:textSize="30sp"/>
+        android:textSize="40sp"/>
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_centerInParent="true"
         android:onClick="onStartButtonClicked"
-        android:text="START" />
+        android:text="START"
+        android:textSize="26sp"/>
 
     <TextView
         android:id="@+id/privacyPolicyTextView"
@@ -39,6 +39,6 @@
         android:clickable="true"
         android:onClick="openPrivacyPolicy"
         android:padding="20dp"
-        android:textSize="16sp"/>
+        android:textSize="20sp"/>
 
 </RelativeLayout>

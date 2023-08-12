@@ -8,11 +8,10 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    android:background="@color/background_color"
     tools:context=".FuCalcActivity">
 
     <TextView
-        android:id="@+id/Pinfu"
+        android:id="@+id/Machi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="※待ち(タンキ、カンチャン、ペンチャン) 2符"
@@ -86,7 +85,7 @@
 
 
     <TextView
-        android:id="@+id/PonA"
+        android:id="@+id/Pon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -102,25 +101,25 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButtonPonA1"
+            android:id="@+id/radioButtonPonA"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonA2"
+            android:id="@+id/radioButtonPonB"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonA3"
+            android:id="@+id/radioButtonPonC"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonA4"
+            android:id="@+id/radioButtonPonD"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="４個" />
@@ -292,7 +291,7 @@
 
         <Button
             android:layout_width="177dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:onClick="calculateTotalFu"
             android:text="計算" />
 
@@ -302,19 +301,21 @@
 
         <TextView
             android:id="@+id/textViewTotalFu"
-            android:layout_width="60dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:textSize="24sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="符" />
+            android:text="符"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
@@ -327,7 +328,7 @@
         <Button
             android:id="@+id/buttonBack"
             android:layout_width="70dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:onClick="goToYakuActivity"
             android:text="戻る" />
@@ -338,7 +339,7 @@
 
         <Button
             android:layout_width="70dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:onClick="goToScoreTableActivity"
             android:text="点数へ" />
