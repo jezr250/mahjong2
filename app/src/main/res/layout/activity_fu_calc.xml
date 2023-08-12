@@ -88,7 +88,7 @@
         android:id="@+id/Pon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="中張牌のポン 2符"
         android:textStyle="bold"
         android:textColor="#008000"
@@ -101,25 +101,25 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButtonPonA"
+            android:id="@+id/radioButtonPon1A"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="１個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonB"
+            android:id="@+id/radioButtonPon1B"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="２個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonC"
+            android:id="@+id/radioButtonPon1C"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="３個" />
 
         <RadioButton
-            android:id="@+id/radioButtonPonD"
+            android:id="@+id/radioButtonPon1D"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:text="４個" />
@@ -129,7 +129,7 @@
         android:id="@+id/AnkoPon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="中張牌の暗刻　/　１・９、字牌のポン 4符"
         android:textStyle="bold"
         android:textColor="#008000"
@@ -172,7 +172,7 @@
         android:id="@+id/AnkoB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="１・９、字牌の暗刻　/　中張牌の明槓 8符"
         android:textStyle="bold"
         android:textColor="#008000"
@@ -214,7 +214,7 @@
         android:id="@+id/AnkanA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="中張牌の暗槓　/　１・９、字牌の明槓 16符"
         android:textStyle="bold"
         android:textColor="#008000"
@@ -250,7 +250,7 @@
         android:id="@+id/AnkanB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:text="１・９、字牌の暗槓 32符"
         android:textStyle="bold"
         android:textColor="#008000"

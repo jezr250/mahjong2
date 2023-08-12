@@ -71,13 +71,13 @@ public class FuCalc4Activity extends AppCompatActivity {
 
         // 中張牌のポンの符の値を計算
         int selectedRadioButtonId3 = radioGroup3.getCheckedRadioButtonId();
-        if (selectedRadioButtonId3 == R.id.radioButtonPonA) {
+        if (selectedRadioButtonId3 == R.id.radioButtonPon4A) {
             totalFu += 2;
-        } else if (selectedRadioButtonId3 == R.id.radioButtonPonB) {
+        } else if (selectedRadioButtonId3 == R.id.radioButtonPon4B) {
             totalFu += 4;
-        } else if (selectedRadioButtonId3 == R.id.radioButtonPonC) {
+        } else if (selectedRadioButtonId3 == R.id.radioButtonPon4C) {
             totalFu += 6;
-        } else if (selectedRadioButtonId3 == R.id.radioButtonPonD) {
+        } else if (selectedRadioButtonId3 == R.id.radioButtonPon4D) {
             totalFu += 8;
         }
 
