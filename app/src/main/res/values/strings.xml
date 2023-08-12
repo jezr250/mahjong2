@@ -95,4 +95,28 @@
         8.制定日・改定日\n\n
         制定：2023年8月8日
     </string>
+
+    <string name="radioButtonPon1_contentDescription">チュンチャンパイのポンが1個</string>
+    <string name="radioButtonPon2_contentDescription">チュンチャンパイのポンが2個</string>
+    <string name="radioButtonPon3_contentDescription">チュンチャンパイのポンが3個</string>
+    <string name="radioButtonPon4_contentDescription">チュンチャンパイのポンが4個</string>
+
+    <string name="radioButtonAnkoPon1_contentDescription">チュンチャンパイのアンコまたは、１、９、字牌のポンが1個</string>
+    <string name="radioButtonAnkoPon2_contentDescription">チュンチャンパイのアンコまたは、１、９、字牌のポンが2個</string>
+    <string name="radioButtonAnkoPon3_contentDescription">チュンチャンパイのアンコまたは、１、９、字牌のポンが3個</string>
+    <string name="radioButtonAnkoPon4_contentDescription">チュンチャンパイのアンコまたは、１、９、字牌のポンが4個</string>
+
+    <string name="radioButtonAnkoB1_contentDescription">１、９、字牌のアンコまたは、チュンチャンパイのミンカンが1個</string>
+    <string name="radioButtonAnkoB2_contentDescription">１、９、字牌のアンコまたは、チュンチャンパイのミンカンが2個</string>
+    <string name="radioButtonAnkoB3_contentDescription">１、９、字牌のアンコまたは、チュンチャンパイのミンカンが3個</string>
+    <string name="radioButtonAnkoB4_contentDescription">１、９、字牌のアンコまたは、チュンチャンパイのミンカンが4個</string>
+
+    <string name="radioButtonAnkanA1_contentDescription">チュンチャンパイのアンカンまたは、１、９、字牌のミンカンが1個</string>
+    <string name="radioButtonAnkanA2_contentDescription">チュンチャンパイのアンカンまたは、１、９、字牌のミンカンが2個</string>
+    <string name="radioButtonAnkanA3_contentDescription">チュンチャンパイのアンカンまたは、１、９、字牌のミンカンが3個</string>
+
+    <string name="radioButtonAnkanB1_contentDescription">１、９、字牌のアンカンが1個</string>
+    <string name="radioButtonAnkanB2_contentDescription">１、９、字牌のアンカンが2個</string>
+    <string name="radioButtonAnkanB3_contentDescription">１、９、字牌のアンカンが3個</string>
+
 </resources>
